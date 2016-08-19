@@ -15,6 +15,9 @@
 		8B0589DE1D65532E008C462C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B0589DC1D65532E008C462C /* LaunchScreen.storyboard */; };
 		8B0589E91D65532E008C462C /* CoreAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0589E81D65532E008C462C /* CoreAnimationDemoTests.m */; };
 		8B0589F41D65532E008C462C /* CoreAnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0589F31D65532E008C462C /* CoreAnimationDemoUITests.m */; };
+		8B058A041D6556F3008C462C /* ClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B058A031D6556F3008C462C /* ClockViewController.m */; };
+		8B058A0C1D6585AD008C462C /* CALayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B058A0B1D6585AD008C462C /* CALayerViewController.m */; };
+		8B8D66BE1D66E3B00096ABBA /* WaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8D66BD1D66E3B00096ABBA /* WaveView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		8B0589EF1D65532E008C462C /* CoreAnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreAnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B0589F31D65532E008C462C /* CoreAnimationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationDemoUITests.m; sourceTree = "<group>"; };
 		8B0589F51D65532E008C462C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B058A021D6556F3008C462C /* ClockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockViewController.h; sourceTree = "<group>"; };
+		8B058A031D6556F3008C462C /* ClockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockViewController.m; sourceTree = "<group>"; };
+		8B058A0A1D6585AD008C462C /* CALayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALayerViewController.h; sourceTree = "<group>"; };
+		8B058A0B1D6585AD008C462C /* CALayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALayerViewController.m; sourceTree = "<group>"; };
+		8B8D66BC1D66E3B00096ABBA /* WaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveView.h; sourceTree = "<group>"; };
+		8B8D66BD1D66E3B00096ABBA /* WaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +110,8 @@
 		8B0589CD1D65532E008C462C /* CoreAnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8B8D66BB1D66E39E0096ABBA /* Views */,
+				8B058A011D6556D8008C462C /* VC */,
 				8B0589D11D65532E008C462C /* AppDelegate.h */,
 				8B0589D21D65532E008C462C /* AppDelegate.m */,
 				8B0589D41D65532E008C462C /* ViewController.h */,
@@ -138,6 +149,26 @@
 				8B0589F51D65532E008C462C /* Info.plist */,
 			);
 			path = CoreAnimationDemoUITests;
+			sourceTree = "<group>";
+		};
+		8B058A011D6556D8008C462C /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				8B058A021D6556F3008C462C /* ClockViewController.h */,
+				8B058A031D6556F3008C462C /* ClockViewController.m */,
+				8B058A0A1D6585AD008C462C /* CALayerViewController.h */,
+				8B058A0B1D6585AD008C462C /* CALayerViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		8B8D66BB1D66E39E0096ABBA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8B8D66BC1D66E3B00096ABBA /* WaveView.h */,
+				8B8D66BD1D66E3B00096ABBA /* WaveView.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +304,9 @@
 				8B0589D61D65532E008C462C /* ViewController.m in Sources */,
 				8B0589D31D65532E008C462C /* AppDelegate.m in Sources */,
 				8B0589D01D65532E008C462C /* main.m in Sources */,
+				8B058A0C1D6585AD008C462C /* CALayerViewController.m in Sources */,
+				8B058A041D6556F3008C462C /* ClockViewController.m in Sources */,
+				8B8D66BE1D66E3B00096ABBA /* WaveView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +532,7 @@
 				8B0589FA1D65532E008C462C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B0589FB1D65532E008C462C /* Build configuration list for PBXNativeTarget "CoreAnimationDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +541,7 @@
 				8B0589FD1D65532E008C462C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B0589FE1D65532E008C462C /* Build configuration list for PBXNativeTarget "CoreAnimationDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +550,7 @@
 				8B058A001D65532E008C462C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
