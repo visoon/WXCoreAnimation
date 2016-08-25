@@ -18,6 +18,8 @@
 		8B058A041D6556F3008C462C /* ClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B058A031D6556F3008C462C /* ClockViewController.m */; };
 		8B058A0C1D6585AD008C462C /* CALayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B058A0B1D6585AD008C462C /* CALayerViewController.m */; };
 		8B8D66BE1D66E3B00096ABBA /* WaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8D66BD1D66E3B00096ABBA /* WaveView.m */; };
+		8BD96E6E1D6EF6ED004A9D9A /* PointModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD96E6D1D6EF6ED004A9D9A /* PointModel.m */; };
+		8BFA8D621D6E9ACD000AC517 /* CircleWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFA8D611D6E9ACD000AC517 /* CircleWaveView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,10 @@
 		8B058A0B1D6585AD008C462C /* CALayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALayerViewController.m; sourceTree = "<group>"; };
 		8B8D66BC1D66E3B00096ABBA /* WaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveView.h; sourceTree = "<group>"; };
 		8B8D66BD1D66E3B00096ABBA /* WaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveView.m; sourceTree = "<group>"; };
+		8BD96E6C1D6EF6ED004A9D9A /* PointModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointModel.h; sourceTree = "<group>"; };
+		8BD96E6D1D6EF6ED004A9D9A /* PointModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointModel.m; sourceTree = "<group>"; };
+		8BFA8D601D6E9ACD000AC517 /* CircleWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleWaveView.h; sourceTree = "<group>"; };
+		8BFA8D611D6E9ACD000AC517 /* CircleWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleWaveView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +173,10 @@
 			children = (
 				8B8D66BC1D66E3B00096ABBA /* WaveView.h */,
 				8B8D66BD1D66E3B00096ABBA /* WaveView.m */,
+				8BFA8D601D6E9ACD000AC517 /* CircleWaveView.h */,
+				8BFA8D611D6E9ACD000AC517 /* CircleWaveView.m */,
+				8BD96E6C1D6EF6ED004A9D9A /* PointModel.h */,
+				8BD96E6D1D6EF6ED004A9D9A /* PointModel.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -303,6 +313,8 @@
 			files = (
 				8B0589D61D65532E008C462C /* ViewController.m in Sources */,
 				8B0589D31D65532E008C462C /* AppDelegate.m in Sources */,
+				8BD96E6E1D6EF6ED004A9D9A /* PointModel.m in Sources */,
+				8BFA8D621D6E9ACD000AC517 /* CircleWaveView.m in Sources */,
 				8B0589D01D65532E008C462C /* main.m in Sources */,
 				8B058A0C1D6585AD008C462C /* CALayerViewController.m in Sources */,
 				8B058A041D6556F3008C462C /* ClockViewController.m in Sources */,

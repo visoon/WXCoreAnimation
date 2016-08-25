@@ -144,23 +144,27 @@
                                     <constraint firstAttribute="height" constant="150" id="Se6-4o-US6"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NJK-L0-ce4" customClass="WaveView">
-                                <rect key="frame" x="0.0" y="448" width="320" height="120"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="120" id="aaD-rZ-78N"/>
-                                </constraints>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NJK-L0-ce4" customClass="CircleWaveView">
+                                <rect key="frame" x="0.0" y="259" width="320" height="309"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="NJK-L0-ce4" firstAttribute="leading" secondItem="mvN-oU-OCC" secondAttribute="leading" id="5JV-jB-BC9"/>
+                            <constraint firstItem="M7e-rV-4El" firstAttribute="top" secondItem="NJK-L0-ce4" secondAttribute="bottom" id="8bp-T7-fck"/>
                             <constraint firstItem="M7e-rV-4El" firstAttribute="top" secondItem="NJK-L0-ce4" secondAttribute="bottom" id="Czh-ml-wT2"/>
+                            <constraint firstItem="NJK-L0-ce4" firstAttribute="top" secondItem="3pr-Oi-zWQ" secondAttribute="bottom" id="F4e-Mk-JaA"/>
                             <constraint firstAttribute="trailing" secondItem="NJK-L0-ce4" secondAttribute="trailing" id="LYd-k8-Tqa"/>
                             <constraint firstItem="3pr-Oi-zWQ" firstAttribute="centerX" secondItem="mvN-oU-OCC" secondAttribute="centerX" id="mJL-hu-EOa"/>
                             <constraint firstItem="3pr-Oi-zWQ" firstAttribute="centerY" secondItem="mvN-oU-OCC" secondAttribute="centerY" constant="-100" id="sdZ-cp-LAw"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Czh-ml-wT2"/>
+                            </mask>
+                        </variation>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="0PI-Kq-iyZ" appends="YES" id="u4n-CY-UT6"/>
                         </connections>
